@@ -1,0 +1,584 @@
+
+body{
+    background-color: #EEE;
+}
+.navbar
+{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+/*start footer*/
+.footer
+{
+    background-color: #333;
+    color: #EEE;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+/*end footer*/
+
+/*star post*/
+.home-page .main-post
+{
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.home-page .main-post h3
+{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+    letter-spacing: -1px;
+}
+.home-page .main-post .post-author,
+.home-page .main-post .post-date,
+.home-page .main-post .post-comment
+{
+   font-size: 12px;
+}
+.home-page .main-post i
+{
+   color: #999;
+}
+.home-page .main-post img
+{
+   display: block;
+   margin: 10px 0 10px;
+   width: 600px;
+   height: 450px;
+}
+.home-page .main-post .post-content
+{
+    line-height: 1.6;
+    color: #888;
+}
+
+.home-page .post-pagination
+{
+    margin: 20px auto 30px;
+    width: 400px;
+    text-align: center;
+}
+.home-page .post-pagination a,
+.home-page .post-pagination span
+{
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #FFF;
+   border-radius: 5px;
+   -webkit-transition: all .4s ease-in-out;
+   -moz-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.home-page .post-pagination a:first-of-type
+{
+    margin-right: 10px;
+}
+.home-page .post-pagination span
+{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.home-page .post-pagination .previous-span
+{
+   margin-right: 10px;
+}
+.home-page .post-pagination .next-span
+{
+    margin-left: 10px;
+}
+.home-page .post-pagination .fa-chevron-left
+{
+    margin-right: 10px;
+}
+.home-page .post-pagination .fa-chevron-right
+{
+    margin-left: 10px;
+}
+.home-page .post-pagination a:hover
+{
+    background-color: #333;
+    color: #FFF;
+    text-decoration: none;
+}
+/*end post*/
+/*Start Category*/
+.aha.category-info
+{
+    margin: 25px 15px;
+    border: 1px solid #d8d8d8;
+    background-color: #FFF
+}
+.home-page .category-info h1
+{
+    margin: 20px 0;
+    font-weight: bold;
+    color: #9c9c9c;
+}
+.home-page .category-info .category-description p
+{
+    font-size: 18px;
+    color: #777;
+    line-height: 80px;
+    margin: 0;
+}
+.category-info .category-stats
+{
+    line-height: 35px;
+    color: #a9a9a9;
+}
+.category-info .category-stats span
+{
+    display: block;
+}
+/*End Category*/
+/*Start linux-category*/
+.linux-category .post-title
+{
+   margin-top: 30px !important
+}
+.linux-category .post-content
+{
+   margin-top: 8px;
+}
+
+.sidebar-linux .widget
+{
+   background-color: #FFF;
+   border: 1px solid #d8d8d8;
+   margin-bottom: 15px;
+   margin-top: 10px;
+}
+.sidebar-linux .widget-title
+{
+   margin: 0;
+   padding: 10px;
+   background-color: #42a4d0;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+}
+.sidebar-linux .widget-content
+{
+   padding: 10px;
+   color: #969696;
+}
+/*End linux-category*/
+/* Start Single Post*/
+.post-page .main-post
+{
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.post-page .main-post h3
+{
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #777;
+    letter-spacing: -1px;
+}
+.post-page .main-post .post-author,
+.post-page .main-post .post-date,
+.post-page .main-post .post-comment
+{
+   font-size: 12px;
+}
+.post-page .main-post i
+{
+   color: #999;
+}
+.post-page .main-post img
+{
+   display: block;
+   margin: 10px 0 10px;
+}
+.post-page .main-post .post-content
+{
+    line-height: 1.8;
+    color: #888;
+}
+
+.post-page .post-pagination
+{
+    margin: 20px auto 30px;
+    width: 400px;
+    text-align: center;
+}
+.post-page .post-pagination a,
+.post-page .post-pagination span
+{
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #FFF;
+   border-radius: 5px;
+   -webkit-transition: all .4s ease-in-out;
+   -moz-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.post-page .post-pagination a:first-of-type
+{
+    margin-right: 10px;
+}
+.post-page .post-pagination span
+{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.post-page .post-pagination .previous-span
+{
+   margin-right: 10px;
+}
+.post-page .post-pagination .next-span
+{
+    margin-left: 10px;
+}
+.post-page .post-pagination .fa-chevron-left
+{
+    margin-right: 10px;
+}
+.post-page .post-pagination .fa-chevron-right
+{
+    margin-left: 10px;
+}
+.post-page .post-pagination a:hover
+{
+    background-color: #333;
+    color: #FFF;
+    text-decoration: none;
+}
+.post-page .main-post .post-edit-link
+{
+   position: absolute;
+   top:0;
+   right: 0;
+   padding: 10px;
+   background-color: #EEE;
+   border-radius: 0 0 0 10px;
+}
+.post-page .main-post .post-edit-link i
+{
+    color: #337ab7;
+    margin-left: 5px;
+}
+/* End Single Post*/
+/* Start author ifo */
+.author-info h4
+{
+  margin: 12px 0 10px 0;
+  font-weight: bold;
+  color: #676767;
+  font-size: 24px;
+}
+.author-info h4 .nickname
+{
+    color:#337ab7;
+}
+.author-info p
+{
+    font-size: 17px;
+    height: 1.5;
+    color: #777;
+}
+.author-stats
+{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+/* End author ifo */
+/*Start Comments list*/
+.comments-list ul,
+.comments-list ol
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.comments-count
+{
+   padding: 20px;
+   background-color: #e2e2e2;
+   font-size: 24px;
+   margin-top: 0;
+   font-weight: bold;
+   color: #909090;
+   border: 1px solid #dedede;
+}
+.comments-list .comment img
+{
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.comments-list .comment .comment-meta
+{
+    font-size: 12px;
+    color: #777;
+}
+.comments-list .comment p
+{
+    margin-top: 8px;
+    color: #6f6f6f;
+}
+.comments-list .comment .says
+{
+    display: none;
+}
+.comments-list > .comment
+{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+.comments-list > .comment > .children > .comment
+{
+    padding: 10px;
+    background-color: #EEE;
+    margin-top: 10px;
+    border: 1px solid #CCC;
+}
+.comments-list > .comment > .children > .comment .comment
+{
+    padding: 10px;
+    background-color: #DDD;
+    margin-top: 10px;
+    border: 1px solid #AAA;
+}
+.comment-respond .comment-reply-title
+{
+    font-weight: bold;
+    color: #9a9a9a;
+    text-align: center;
+    background-color: #E3E3E3;
+    padding: 15px;
+}
+.comment-respond .comment-reply-title ~ form
+{
+   background-color: #E3E3E3;
+   padding: 15px;
+}
+.comment-respond .logged-in-as
+{
+    margin: 0 5px 10px;
+}
+.comment-respond label
+{
+    display: block;
+    color: #888;
+    margin: 0 0 10px 6px;
+}
+.comment-respond input[type="text"],
+.comment-respond textarea
+{
+    height: 40px;
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+.comment-respond textarea
+{
+    height: 200px;
+    resize: none;
+}
+.comment-respond input[type="submit"]
+{
+    margin-top: 6px;
+}
+/*End Comments list*/
+
+/*Start Author Page*/
+.author-page .profile-header
+{
+    font-size: 60px;
+    margin: 30px 0;
+    color: #666;
+    font-weight: bold;
+    letter-spacing: -3px;
+    text-align: center;
+}
+.author-page .author-main-info
+{
+    background-color: #fff;
+    padding: 40px 20px;
+    border: 1px solid #dedede;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.author-page .author-main-info .author-names span
+{
+    display: inline-block;
+    min-width: 120px;
+}
+.author-page .author-main-info hr
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.author-page .author-main-info p
+{
+    color: #777;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.author-page .author-stats .post-count
+{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -30px;
+}
+.author-page .author-stats .comments-count
+{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.author-page .author-stats .post-count span
+{
+    display: block;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #827b7b;
+}
+.author-page .author-stats .comments-count span 
+{
+    display: block;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #827b7b;
+}
+.author-page .author-posts-title
+{
+   margin: 0 0 20px;
+   background-color: #e2e2e2;
+   padding: 20px 30px;
+   font-weight: bold;
+   color: #717171;
+}
+.author-page .author-posts
+{
+    padding: 20px;
+    background-color: #FFF;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #e4e4e4
+}
+.author-page .author-posts-img
+{
+    width: 160px;
+}
+.author-page .author-posts h3
+{
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.author-page .author-posts .post-date,
+.author-page .author-posts .post-comment
+{
+    font-size: 12px;
+    color: #888;
+}
+.author-page .author-comments
+{
+    padding: 10px 20px;
+    background-color: #FFF;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 1px solid #e4e4e4
+}
+.author-page .author-comments h3
+{
+    margin: 5px 0;
+}
+.author-page .author-comments .post-date
+{
+   font-size: 12px;
+   color: #888;
+}
+.author-page .author-comments .post-content
+{
+    color: #6b6b6b;
+    margin-top: 5px;
+}
+.author-page .author-comments .post-content p
+{
+    margin: 0;
+}
+
+/*End Author Page*/
+
+.pagination-numbers
+{
+    margin: 5px auto 25px;
+    font-family: tahoma Arial;
+    font-size: 16px;
+    text-align: center !important
+}
+.pagination-numbers .page-numbers
+{
+    display: inline-block;
+    background-color: #8e8e8e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+     transition: all .2s ease-in-out;
+}
+.pagination-numbers .page-numbers.current
+{
+    background-color: #2980be;
+}
+.pagination-numbers .page-numbers:hover
+{
+    text-decoration: none;
+    background-color: #2980be;
+}
+
+/*Start breadcrumbs*/
+.breadcrumbs-holder
+{
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+.breadcrumbs-holder .breadcrumb
+{
+    margin-bottom: 0;
+    padding: 15px;
+} 
+/*End breadcrumbs*/
+
+.aha
+{
+    margin: 25px 15px;
+    border: 1px solid #d8d8d8;
+    background-color: #FFF
+}
